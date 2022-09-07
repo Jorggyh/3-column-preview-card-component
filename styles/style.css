@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px = 1rem */
+}
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray-bg-bt-head: hsl(0, 0%, 95%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+main {
+  width: 32.7rem;
+  margin: 8.8rem 0;
+}
+
+.card {
+  height: 44.2rem;
+  padding: 4.8rem;
+  position: relative;
+}
+
+.card img {
+  width: 6.3rem;
+}
+
+.card1 {
+  background-color: var(--bright-orange);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card2 {
+  background-color: var(--dark-cyan);
+}
+
+.card3 {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 0 1.5rem 1.5rem;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--very-light-gray-bg-bt-head);
+  padding: 3.7rem 0 2.6rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-right: 1rem;
+  color: var(--transparent-white-paragraphs);
+}
+
+button {
+  width: 14.6rem;
+  height: 4.8rem;
+  border-radius: 2.5rem;
+  border: none;
+  font-size: 1.5rem;
+  margin-top: 2.4rem;
+  position: absolute;
+  bottom: 4.8rem;
+}
+
+.card1 button {
+  color: var(--bright-orange);
+}
+
+.card2 button {
+  color: var(--dark-cyan);
+}
+
+.card3 button {
+  color: var(--very-dark-cyan);
+}
+
+button:focus,
+button:hover {
+  cursor: pointer;
+  border: 0.2rem solid var(--very-light-gray-bg-bt-head);
+  color: var(--very-light-gray-bg-bt-head);
+  outline: none;
+}
+
+.card1 button:hover,
+.card1 button:focus {
+  background-color: var(--bright-orange);
+}
+
+.card2 button:focus,
+.card2 button:hover {
+  background-color: var(--dark-cyan);
+}
+
+.card3 button:focus,
+.card3 button:hover {
+  background-color: var(--very-dark-cyan);
+}
