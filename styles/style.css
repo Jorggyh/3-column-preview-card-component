@@ -79,6 +79,7 @@ button {
   margin-top: 2.4rem;
   position: absolute;
   bottom: 4.8rem;
+  background-color: var(--very-light-gray-bg-bt-head);
 }
 
 .card1 button {

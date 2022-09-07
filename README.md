@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-| Mobile                    | Hover effect              |
-|---------------------------|---------------------------|
-| ![](/img/screenshot1.png) | ![](/img/screenshot2.png) |
+| Mobile                          | Desktop                          |
+|---------------------------------|----------------------------------|
+| ![](/img/screenshot-mobile.png) | ![](/img/screenshot-desktop.png) |
 
 ### Links
 
