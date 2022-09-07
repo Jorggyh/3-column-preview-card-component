@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution
-  URL: []()
+  URL: [https://www.frontendmentor.io/solutions/adapted-for-tablets-too-MN396tWcLQ](https://www.frontendmentor.io/solutions/adapted-for-tablets-too-MN396tWcLQ)
 - Live Site
   URL: [https://jorggyh.github.io/3-column-preview-card-component/](https://jorggyh.github.io/3-column-preview-card-component/)
 
